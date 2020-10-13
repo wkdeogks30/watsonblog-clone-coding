@@ -43,6 +43,7 @@ header img {
 .sidemain {
     display: inline-block;
     position: absolute;
+    background : #FFFFFF;
     right : 2.6%;
     width : 28%;
 }
@@ -67,4 +68,26 @@ header img {
     height : 25%;
     border : 1px solid #CBCBCB;
     border-radius: 6px;
+}
+
+.profile {
+    float : left;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.photo {
+    top : 48%;
+    height : 30%;
+}
+
+.photo_title {
+    height : 22%;
+}
+
+.picture {
+    margin-left : 50%;
+    margin-top : 3%;
+    transform:translate(-50%, 0);
 }

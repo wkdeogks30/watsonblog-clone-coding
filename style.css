@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height : 100vh;
+    background: linear-gradient(to bottom, black, #44552B);
+    
+}
+
+.background {
+    display: inline-block;
+    position : relative;
+    left : 50%;
+    transform: translate(-50%, 0);
+    width: 64%;
+    height: 100%;
+    background : #EAEAEA;
+}
+
+.middle {
+    top : 21%;
+}
+
+/* Header */
+header img {
+    position: relative;
+    left: 50%;
+    top : 0.6rem;
+    border-radius   : 6px;
+    transform: translate(-50%, 0);
+    z-index: 2;
+}
+
+/* Main */
+.main {
+    position : absolute;
+    display: inline-block;
+    left : 2.6%;
+    width : 65%;
+    height : 79%;
+    border : 1px solid #CBCBCB;
+}
+
+/* Side */
+.sidemain {
+    display: inline-block;
+    position: absolute;
+    right : 2.6%;
+    width : 28%;
+}
+
+.title {
+    display: inline-block;
+    margin: 0;
+    width : 100%;
+    height: 30%;
+    line-height: 300%; /* Need Another way */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #44552B;
+}
+.title h1 {
+    margin: 0;
+    margin-left : 3%;
+    color : white;
+}
+
+.aboutme {
+    height : 25%;
+    border : 1px solid #CBCBCB;
+    border-radius: 6px;
+}
